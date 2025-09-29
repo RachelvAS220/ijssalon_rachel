@@ -21,7 +21,7 @@ for el in (reclame_tekst4):
     print (el.lower())
 
 for el in (reclame_tekst4):
-    if len(el) > 5:
+    if len(el) > 4:
         print (el.upper())
     else:
         print (el.lower())
