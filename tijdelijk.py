@@ -1,5 +1,3 @@
-from helper import decoreer
-
 def print_aanbieding ():
     prijzen = {
         "aardbei":3,
@@ -17,11 +15,11 @@ def print_aanbieding ():
 
     reclame_tekst4 = reclame_tekst3.split (" ")
 
-    for el in reclame_tekst4:
-        if len(el) > 4:
-               print (el.upper())
-        else:
-            print (el.lower())
+for el in (reclame_tekst4):
+    if len(el) > 4:
+        print (el.upper())
+    else:
+        print (el.lower())
 
 decoreer ("Aanbieding")
 print_aanbieding ()
